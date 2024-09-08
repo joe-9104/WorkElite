@@ -1,0 +1,73 @@
+.container{
+    width: 900px;
+    padding: 10px;
+}
+.form{
+    width: inherit;
+    display: flex;
+}
+.divider{
+    width: 1px;
+    height: 500px;
+    background-color: gray;
+    margin-right: 10px;
+}
+.fields{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.users{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputtitle{
+    margin-top: 15px;
+    align-self: flex-start;
+    font-size: 24px;
+}
+.entree, .grandentree{
+    background-color: #F1F3F6;
+    margin-left: 5%;
+    width: 90%;
+    height: 35px;
+    border: solid var(--color-background);
+    border-radius: 10px;
+}
+
+.entree::placeholder, .grandentree::placeholder{
+    color: #9c9696;
+    font-size: 16px;
+}
+.grandentree{
+    height: 95px;
+    margin-left: 0%;
+    border: none;
+}
+.priorityCont{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.pbuttn{
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.flec{
+    display: flex;
+    justify-content: flex-end;
+}
+.err{
+    color: red;
+    font-size: 20px;
+}

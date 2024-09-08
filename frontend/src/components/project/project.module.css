@@ -1,0 +1,95 @@
+
+/*The whole project component*/
+.Project{
+    background-color: #ffffff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 90%; 
+    box-shadow: none; 
+    cursor: pointer;
+}
+
+
+/*Project header: title, update & delete buttons*/
+.ProjectHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Name { /*project title*/
+    font-size: 18px; 
+    color: #333333;
+    margin-bottom: 10px;
+}
+/*Project separator: el 5at l gris*/
+.ProjectSeparator{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #333333;
+}
+
+
+/*Project info: description, start & due date*/
+.ProjetInfo {
+    display: flex;
+    flex-direction: column;
+}
+.Details { /*text of info*/
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.icon{ /*delete & update icons*/
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+    
+}
+.button {/*buttons that contain icons*/
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+/*Delete modal*/
+.msg{
+    font-size: 20px;
+}
+.deletemodal{ /*styling the <Modal> component*/
+    display: flex;
+    flex-direction: row;
+}
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-top: 7%;
+}
+.cancelbutton, .deletebutton{
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 45px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.cancelbutton{
+    background-color: var(--color-buttons);  
+}
+.deletebutton{
+    background-color: red;
+}
+
+/*update modal*/
+.updatemodal{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}

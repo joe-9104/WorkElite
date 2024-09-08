@@ -1,0 +1,22 @@
+
+.bttn{
+    width : 135px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: var(--color-buttons);
+    color: var(--color-primary);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.icon{
+    width : 24px;
+    height: 24px;
+}
+.text{
+    font-size: 20px;
+}

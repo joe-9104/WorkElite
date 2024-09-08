@@ -1,0 +1,66 @@
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.label{
+   width: 100%;
+   text-align: left;
+   margin-left: 40px;
+   color : var(--color-placeholder);
+}
+.registerButton{
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--color-buttons);
+    color: var(--color-primary);
+    border : none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.firstLine{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+}
+.roleCont{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+}
+.roleButton{
+    height: inherit;
+    border: 1px solid var(--color-buttons);
+    background-color: var(--color-primary);
+    color: var(--color-buttons);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.activeRoleButton{
+    background-color: var(--color-buttons);
+    color: var(--color-primary);
+    height: inherit;
+    cursor: pointer;
+    border : none;
+    border-radius: 8px;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}

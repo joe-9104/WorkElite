@@ -1,0 +1,27 @@
+.container{
+    width: 90%;
+    margin: 0 5px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+}
+.plus{
+    background-color: var(--color-buttons);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 22px;
+    width: 22px;
+   
+}

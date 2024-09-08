@@ -1,0 +1,15 @@
+
+.submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-buttons);
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    align-self: flex-end;
+    margin-right: 7%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}

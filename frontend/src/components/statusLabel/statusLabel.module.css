@@ -1,0 +1,22 @@
+.container{
+    height: 30px;
+    width: 100px;
+    color: var(--color-primary);
+    border-radius: 20px;
+    text-align: center;
+}
+.low{
+    background-color: #4BA665;
+}
+.medium{
+    background-color: rgb(245, 188, 15);
+}
+.high{
+    background-color: #F06A6A;
+}
+.inProgress{
+    background-color: gray;
+}
+.pending{
+    background-color: #236387;
+}

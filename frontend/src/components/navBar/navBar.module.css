@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    height: 50px;
+    width: 100%;
+}
+  
+.navbarItem {
+    color: var(--color-primary);
+    font-size: 30px;
+    width: 40%;
+}
+  
+.Search {
+    width: 255px;
+    height: 35px;
+    padding: 5px;
+    margin-left: 200px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    outline: none;
+}
+
+.Search::placeholder{
+    text-align: left;
+    padding-left: 20px;
+    color: var(--color-primaryBlue);
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    padding-right: 0;
+    height: 50px;
+    gap : 10px
+}
+
+  

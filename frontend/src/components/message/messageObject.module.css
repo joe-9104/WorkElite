@@ -1,0 +1,44 @@
+
+.selfMessage {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--color-sentMessage);
+    border-radius: 10px;
+    max-width: 70%;
+    align-self: flex-end;
+  }
+  
+  .otherMessage {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: var(--color-receivedMessage);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 70%;
+    align-self: flex-start;
+  }
+  
+  
+  .sender {
+    font-size: 0.85em;
+    color: #6c757d; /* Dark grey color for sender text */
+    margin-bottom: 4px;
+    font-weight: bold;
+  }
+  
+  .messageContent {
+    font-size: 20px;
+    color: #000000; 
+  }
+  
+  .sendAt {
+    font-size:0.9em;
+    color: #6c757d; /* Dark grey color for timestamp */
+    text-align: right;
+    margin-top: 5px;
+  }
+  .senderIdentity{
+    height: 0px;
+    width: 0px;
+    opacity: 0%;
+  }

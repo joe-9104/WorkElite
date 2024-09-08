@@ -1,0 +1,30 @@
+
+.MainDiv {
+    display: flex;
+    align-items: center;
+    background-color: #F5F7FA;
+    border-radius: 15px;
+    padding: 5px;
+    width: 25%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.ProfileImage {
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Username {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.UserRole {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
